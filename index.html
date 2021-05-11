@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html class="wide wow-animation" lang="es">
+
+<head>
+  <title>Fisica</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Montserrat:300%7CQuestrial">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/fonts.css">
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    .ie-panel {
+      display: none;
+      background: #212121;
+      padding: 10px 0;
+      box-shadow: 3px 3px 5px 0 rgba(0, 0, 0, .3);
+      clear: both;
+      text-align: center;
+      position: relative;
+      z-index: 1;
+    }
+
+    html.ie-10 .ie-panel,
+    html.lt-ie-10 .ie-panel {
+      display: block;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="ie-panel"><a href="http://windows.microsoft.com/en-US/internet-explorer/"><img
+        src="images/ie8-panel/warning_bar_0000_us.jpg" height="42" width="820"
+        alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today."></a>
+  </div>
+  <div class="preloader">
+    <div class="preloader-body">
+      <div class="cssload-spinner"><span class="cssload-cube cssload-cube0"></span><span
+          class="cssload-cube cssload-cube1"></span><span class="cssload-cube cssload-cube2"></span><span
+          class="cssload-cube cssload-cube3"></span><span class="cssload-cube cssload-cube4"></span><span
+          class="cssload-cube cssload-cube5"></span><span class="cssload-cube cssload-cube6"></span><span
+          class="cssload-cube cssload-cube7"></span><span class="cssload-cube cssload-cube8"></span><span
+          class="cssload-cube cssload-cube9"></span><span class="cssload-cube cssload-cube10"></span><span
+          class="cssload-cube cssload-cube11"></span><span class="cssload-cube cssload-cube12"></span><span
+          class="cssload-cube cssload-cube13"></span><span class="cssload-cube cssload-cube14"></span><span
+          class="cssload-cube cssload-cube15"></span>
+      </div>
+      <h2 class="preloader-title">Proyecto Fisica</h2>
+    </div>
+  </div>
+  <div class="page"><a class="section section-banner d-none d-xl-flex" href="#"
+      style="background-image: url(images/banner/background-04-1920x60.jpg); background-image: -webkit-image-set( url(images/banner/background-04-1920x60.jpg) 1x, url(images/banner/background-04-3840x120.jpg) 2x )"
+      target="_blank"></a>
+    <!-- Page Header-->
+    <header class="page-header">
+      <!-- RD Navbar-->
+      <div class="rd-navbar-wrap position-relative">
+        <nav class="rd-navbar" data-layout="rd-navbar-sidebar" data-device-layout="rd-navbar-sidebar"
+          data-sm-layout="rd-navbar-sidebar" data-sm-device-layout="rd-navbar-sidebar"
+          data-md-layout="rd-navbar-sidebar" data-md-device-layout="rd-navbar-sidebar"
+          data-lg-layout="rd-navbar-sidebar" data-lg-device-layout="rd-navbar-sidebar"
+          data-xl-layout="rd-navbar-sidebar" data-xl-device-layout="rd-navbar-sidebar"
+          data-xxl-layout="rd-navbar-sidebar" data-xxl-device-layout="rd-navbar-sidebar" data-lg-stick-up-offset="46px"
+          data-xl-stick-up-offset="46px" data-xxl-stick-up-offset="46px" data-lg-stick-up="true" data-xl-stick-up="true"
+          data-xxl-stick-up="true" data-auto-height="false" data-sm-auto-height="false" data-md-auto-height="false"
+          data-lg-auto-height="false" data-xl-auto-height="false" data-xxl-auto-height="false">
+          <div class="rd-navbar-main-outer">
+            <div class="rd-navbar-main">
+              <!-- RD Navbar Panel-->
+              <div class="rd-navbar-panel">
+                <!-- RD Navbar Toggle-->
+                <button class="rd-navbar-toggle" data-rd-navbar-toggle=".rd-navbar-nav-wrap"><span></span></button>
+                <!-- RD Navbar Brand-->
+
+              </div>
+              <div class="rd-navbar-nav-wrap">
+                <div class="rd-navbar-nav-container">
+                  <!-- RD Navbar Nav-->
+                  <ul class="rd-navbar-nav">
+                    <li class="rd-nav-item active"><a class="rd-nav-link" href="index.html">Inicio</a>
+                    </li>
+
+                  </ul>
+                  <ul class="contacts-classic">
+                    <li>
+                      <div class="contacts-classic-title">Telefono:</div><a href="tel:#">3107809191</a>
+                    </li>
+                    <li>
+                      <div class="contacts-classic-title">Correo:</div><a href="mailTo:#">mareyes46@misena.edu.co</a>
+                    </li>
+                    <li>
+
+                      <ul class="list-inline list-social list-inline-sm">
+                        <li><a class="icon fa fa-linkedin" href="#"></a></li>
+                        <li><a class="icon fa fa-twitter" href="#"></a></li>
+                        <li><a class="icon fa fa-facebook" href="#"></a></li>
+                        <li><a class="icon fa fa-instagram" href="#"></a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <ul class="nav-custom rd-navbar-nav">
+            <li class="active"><a class="nav-custom-counter" href="#home"></a></li>
+            <li><a class="nav-custom-counter" href="#about"></a></li>
+            <li><a class="nav-custom-counter" href="#works"></a></li>
+            <li><a class="nav-custom-counter" href="#projects"></a></li>
+            <li><a class="nav-custom-counter" href="#contacts"></a></li>
+            <li><a class="nav-custom-counter" href="#projects"></a></li>
+            <li><a class="nav-custom-counter" href="#contacts"></a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <!-- DePaletra-->
+    <section class="section section-full section-inset-1 bg-default text-center bg-image background-position-1"
+      id="home" style="background-image: url(images/usta.png)">
+      <div class="container">
+        <div class="title-style-1-wrap">
+          <div class="oh-desktop wow slideInLeft">
+            <h1 class="title-style-1 wow slideInRight">Proyecto Fisica</h1>
+          </div>
+        </div>
+        <div class="title-style-2-wrap">
+          <div class="oh-desktop wow slideInRight">
+            <h5 class="title-style-2 wow slideInLeft">Miguel Angel Reyes<br>Maira Pineda <br>Duvan Velazques
+            </h5>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- About Us-->
+    <section class="section section-full section-xxl bg-default" id="about">
+      <div class="container">
+        <div class="row row-30 justify-content-center">
+          <div class="col-sm-9 col-md-5 cube-classic-wrap">
+            <div class="subtitle-classic wow fadeInLeft">Bienvenidos!</div>
+            <h2 class="wow fadeInLeft">Queremos compartir <br class="d-none d-md-block"><span
+                class="text-primary">nuestras</span> dificultades <br class="d-none d-md-block">en fisica de una manera
+              divertida
+            </h2>
+            <div class="cube-classic cube-classic-1"><span class="cube-classic-item"></span><span
+                class="cube-classic-item"></span>
+            </div>
+          </div>
+          <div class="col-md-7 col-lg-6 col-xl-5">
+            <p class="wow fadeInRight">Enfrentando la problematica que hay para desarrollar un proyecto de fisica
+              enfocado hacia la ingeneria de sistemas hemos decidio crear esta aplicacion web donde podemos
+              conocer algo de los temas vistos a lo largo del semestre y desarrollar interactivamente algunos ejercicos.
+            </p>
+            <p class="wow fadeInRight">los siguientes ejercicos estan basados en las guias y documentos aportados
+              por el profe Jossit Vargas</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Selected works-->
+    <section class="section section-full section-md bg-gray-100 section-background-custom" id="works">
+      <div class="container">
+        <div class="row row-30 justify-content-center justify-content-lg-end align-items-md-center">
+          <div class="col-sm-8 col-md-6 col-lg-5 cube-classic-wrap">
+            <div class="subtitle-classic wow fadeInLeft">Seleccione su tema de interes</div>
+            <h2 class="wow fadeInLeft" data-wow-delay=".1s">Conversión de unidades. <br class="d-none d-md-block">
+              . <br class="d-none d-md-block">
+            </h2>
+            <p class="wow fadeInLeft"><strong>La conversión de unidades</strong> es la transformación de una unidad en
+              otra.
+              Este proceso se realiza con el uso de los factores de conversión y las muy útiles tablas de conversión.
+              Bastaría multiplicar por una fracción (factor de conversión) y el resultado es otra medida equivalente,
+              en la que han cambiado las unidades.</p>
+
+
+            <div class="cube-classic cube-classic-2"><span class="cube-classic-item"></span><span
+                class="cube-classic-item"></span>
+            </div>
+          </div>
+          <div class="col-sm-8 col-md-6 wow blurIn">
+            <div class="inset-xl-left-25">
+              <!-- Owl Carousel-->
+              <div class="owl-carousel owl-style-1" data-loop="true" data-items="1" data-nav="true"><img
+                  src="images/convertir.png" alt="" width="618" height="614" /><img src="images/cifras.jpg" alt=""
+                  width="618" height="614" /><img src="images/medida.jpg" alt="" width="618" height="614" />
+              </div>
+            </div>
+            <a class="wow fadeInRight button button-default" href="parejas/index.html">Ejercicios de practica</a>
+          </div>
+        </div>
+      </div>
+      <div class="background-custom-1 bg-default"></div>
+    </section>
+    <!-- Portfolio-->
+    <section class="section section-full section-xl bg-default text-md-center" id="projects">
+      <div class="container">
+        <div class="subtitle-classic wow fadeInUp">Cargas electricas</div>
+        <h2><span class="d-inline-block wow fadeInLeft">En física, se llama carga eléctrica a una propiedad de la
+            materia que está presente en las partículas subatómicas y se evidencia por fuerzas de atracción o de
+            repulsión entre ellas, a través de campos electromagnéticos.
+
+          </span>
+        </h2>
+        <div class="row row-lg row-30">
+          <div class="col-sm-6 col-md-4 wow blurIn" data-wow-delay=".2s">
+            <article class="project-classic box-md">
+              <h2 class="wow fadeInLeft" data-wow-delay=".1s">Propiedades de la carga eléctrica <br
+                  class="d-none d-md-block">
+                <img src="images/des.png" alt="" width="370" height="262" />
+                <div class="project-classic-caption">
+                  <div>
+                    <h5 class="project-classic-title"> La carga eléctrica es una propiedad intrínseca de la materia, y
+                      reside en las partículas subatómicas: los electrones tienen carga negativa y los protones carga
+                      positiva (los neutrones carga neutra, como su nombre sugiere).</h5>
+                  </div>
+                </div>
+            </article>
+          </div>
+          <div class="col-sm-6 col-md-4 wow blurIn" data-wow-delay=".2s">
+            <article class="project-classic box-md">
+              <h2 class="wow fadeInLeft" data-wow-delay=".1s">Ley de Coulomb <br class="d-none d-md-block">
+                <img src="images/des.png" alt="" width="370" height="262" />
+                <div class="project-classic-caption">
+                  <div>
+                    <h5 class="project-classic-title">La Ley de Coulomb o Principio Fundamental de la Electrostática
+                      rige la magnitud de las fuerzas de atracción o de repulsión entre dos cargas eléctricas
+                      determinadas, sin importar el signo de su carga (obviamente, si son del mismo signo será una
+                      fuerza de repulsión, y si son de signo opuesto será una fuerza de atracción).x-iconx </h5>
+                  </div>
+                </div>
+            </article>
+          </div>
+
+          <div class="col-sm-6 col-md-4 wow blurIn" data-wow-delay=".2s">
+            <article class="project-classic box-md">
+              <h2 class="wow fadeInLeft" data-wow-delay=".1s">F = K . [ (Q1 x Q2) / r2 ] <br class="d-none d-md-block">
+                <img src="images/des.png" alt="" width="370" height="262" />
+                <div class="project-classic-caption">
+                  <div>
+                    <h5 class="project-classic-title">F es la fuerza eléctrica.
+                      Q son las cargas.
+                      r es la distancia que las separa.
+                      K es una constante de proporcionalidad definida como 9.109 N.m2/C2.</h5>
+
+                  </div>
+                </div>
+            </article>
+          </div>
+          <div class="col-sm-6 col-md-4 wow blurIn" data-wow-delay=".2s">
+            <article class="project-classic box-md">
+              <h2 class="wow fadeInLeft" data-wow-delay=".1s">Campo eléctrico<br class="d-none d-md-block">
+                <img src="images/des.png" alt="" width="370" height="262" />
+                <div class="project-classic-caption">
+                  <div>
+                    <h5 class="project-classic-title">Un campo eléctrico es un campo de fuerza creado por la atracción y
+                      repulsión de cargas eléctricas (la causa del flujo eléctrico) y se mide en Voltios por metro
+                      (V/m). El flujo decrece con la distancia a la fuente que provoca el campo.</h5>
+
+                  </div>
+                </div>
+            </article>
+          </div>
+          <div class="col-sm-6 col-md-4 wow blurIn" data-wow-delay=".2s">
+            <article class="project-classic box-md">
+              <h2 class="wow fadeInLeft" data-wow-delay=".1s">Unidad de Carga Eléctrica<br class="d-none d-md-block">
+                <img src="images/des.png" alt="" width="370" height="262" />
+                <div class="project-classic-caption">
+                  <div>
+                    <h5 class="project-classic-title">
+                      En el Sistema Internacional de Unidades (S.I.) la carga eléctrica (q) es una magnitud derivada
+                      cuya unidad recibe el nombre de culombio (C), en honor al físico francés Charles-Augustin de
+                      Coulomb. Para definirla se hace uso de la intensidad de corriente eléctrica que es una magnitud
+                      fundamental en el S.I. y cuya unidad es el amperio (A).
+                      1 C = 1 A⋅s
+                    </h5>
+                  </div>
+                </div>
+            </article>
+            <a class="wow fadeInRight button button-default" href="cuestion/index.html">Ejercicios de practica</a>
+          </div>
+          <div class="col-sm-6 col-md-4 wow blurIn" data-wow-delay=".2s">
+            <article class="project-classic box-md">
+              <h2 class="wow fadeInLeft" data-wow-delay=".1s">Corriente eléctrica<br class="d-none d-md-block">
+                <img src="images/des.png" alt="" width="370" height="262" />
+                <div class="project-classic-caption">
+                  <div>
+                    <h5 class="project-classic-title">
+                      Para medir la cantidad de carga que pasa en un momento
+                      determinado por un conductor utilizamos la intensidad y su
+                      modo de averiguarlo es realizando el cociente entre la cantidad
+                      de carga que pasa por el conductor y el tiempo empleado en
+                      pasar.
+                    </h5>
+                  </div>
+                </div>
+            </article>
+
+          </div>
+
+
+        </div>
+      </div>
+
+    </section>
+    <section class="section section-full section-md bg-gray-100 section-background-custom" id="works">
+      <div class="container">
+        <div class="row row-30 justify-content-center justify-content-lg-end align-items-md-center">
+          <div class="col-sm-8 col-md-6 col-lg-5 cube-classic-wrap">
+            <div class="subtitle-classic wow fadeInLeft">Continuemos con nuestro curso !</div>
+            <h2 class="wow fadeInLeft" data-wow-delay=".1s">Ley de Ohm.<br class="d-none d-md-block">
+              <br class="d-none d-md-block"> La intensidad de corriente que
+              atraviesa un circuito es directamente proporcional al voltaje o tensión del mismo e inversamente
+              proporcional a la resistencia que presenta.
+
+              En forma de fracción se pone de la siguiente forma:
+
+              I igual a V entre R.
+
+              Donde I es la intensidad que se mide en amperios (A), V el voltaje que se mide en voltios (V); y R la
+              resistencia que se mide en ohmios (Ω)
+            </h2>
+            <p>
+
+            </p>
+
+
+            <div class="cube-classic cube-classic-2"><span class="cube-classic-item"></span><span
+                class="cube-classic-item"></span>
+            </div>
+          </div>
+          <div class="col-sm-8 col-md-6 wow blurIn">
+            <div class="inset-xl-left-25">
+              <!-- Owl Carousel-->
+              <div class="owl-carousel owl-style-1" data-loop="true" data-items="1" data-nav="true"><img
+                  src="images/ley.png" alt="" width="618" height="614" /><img src="images/ley.png" alt="" width="618"
+                  height="614" />
+              </div>
+            </div>
+            <a class="wow fadeInRight button button-default" href="ahorcado/index.html">Ejercicios de practica</a>
+          </div>
+        </div>
+      </div>
+      <div class="background-custom-1 bg-default"></div>
+    </section>
+    <!-- <section class="section section-xl bg-gray-100 text-md-center">
+      <div class="container">
+        <div class="subtitle-classic wow fadeInUp">Clasificación de los compuestos inorgánicos</div>
+        <h2><span class="d-inline-block wow fadeInLeft">Vamos a</span> <span
+            class="d-inline-block wow fadeInRight">conocer</span>
+        </h2>
+        <img src="images/captura.png" alt="">
+        <div class="row row-xl row-30">
+          <div class="col-sm-6 col-lg-3 wow blurIn" data-wow-delay=".2s">
+            <article class="box-icon-modern">
+              <div class="box-icon-modern-icon mdi mdi-brush"></div>
+              <h4 class="box-icon-modern-title"><a href="#">REGLAS PARA DETERMINAR EL NÚMERO DE OXIDACIÓN</a></h4>
+              <p class="box-icon-modern-text">Los átomos aislados tienen número de oxidación cero. Solamente existen
+                aislados los átomos de gases nobles. También se consideran con número de oxidación cero (0) los
+                compuestos que se encuentran en estado fundamental en forma diatómica: H2, N2, O2, F2, Cl2, Br2.
+                Se escribe en primer lugar el átomo positivo, a la izquierda en la fórmula química, después el átomo
+                negativo. En los compuestos ternarios catión y anión, respectivamente.
+                En toda molécula, la suma algebraica de los números de oxidación de todos los átomos enlazados, es cero:
+                el mismo número de cargas positivas que de cargas negativas.
+              </p>
+            </article>
+          </div>
+          <div class="col-sm-6 col-lg-3 wow blurIn">
+            <article class="box-icon-modern">
+              <div class="box-icon-modern-icon mdi mdi-television-guide"></div>
+              <h4 class="box-icon-modern-title"><a href="#">FORMULACIÓN</a></h4>
+              <p class="box-icon-modern-text">Los compuestos son eléctricamente neutros (no tienen carga). Los elementos
+                se combinan de manera que no hay carga neta, la formación de un compuesto se produce por la interacción
+                de iones monoatómicos o poliatómicos positivos y negativos.
+                En cualquier fórmula química se escribe en primer lugar los elementossituados a la izquierda de la
+                Tabla Periódica (menos electronegativo), y en segundo lugar, los situados a la derecha (más
+                electronegativos).
+              </p>
+            </article>
+          </div>
+          <div class="col-sm-6 col-lg-3 wow blurIn" data-wow-delay=".1s">
+            <article class="box-icon-modern">
+              <div class="box-icon-modern-icon mdi mdi-magnify"></div>
+              <h4 class="box-icon-modern-title"><a href="#">IDENTIFICACIÓN DE COMPUESTOS QUÍMICOS</a></h4>
+              <p class="box-icon-modern-text">Ternarios.
+                Hidróxidos. Tienen el grupo -OH a la derecha. Se considera éste grupo como una unidad y tiene número de
+                oxidación -1.
+                Ácidos oxácidos. Tienen un H a la izquierda y O a la derecha, en el centro pueden contener un Metal o un
+                No Metal.
+                Sales ternarias. También llamadas oxisales. Tienen un metal a la izquierda, un elemento y O a la
+                derecha.
+                Cuaternarios.
+                Sales cuaternarias: Compuestos que además del catión y del anión, llevan iones óxidos o iones hidroxilo.
+                Por lo general, son derivadas de sales oxigenadas, parcialmente hidrogenadas. En este grupo se
+                encuentran las sales ácidas, sales básicas y sales dobles o mixtas.
+              </p>
+            </article>
+          </div>
+          <div class="col-sm-6 col-lg-3 wow blurIn" data-wow-delay=".3s">
+            <article class="box-icon-modern">
+              <div class="box-icon-modern-icon mdi mdi-cash-usd"></div>
+              <h4 class="box-icon-modern-title"><a href="#">Nomenclatura Stock</a></h4>
+              <p class="box-icon-modern-text"> Consiste en indicar el numero de oxidación con números romanos y entre
+                paréntesis, al final del nombre del elemento.
+                Si el elemento tiene un único número de oxidación, éste no se indica.
+              </p>
+            </article>
+          </div>
+          <div class="col-sm-6 col-lg-3 wow blurIn" data-wow-delay=".3s">
+            <article class="box-icon-modern">
+              <div class="box-icon-modern-icon mdi mdi-cash-usd"></div>
+              <h4 class="box-icon-modern-title"><a href="#">Nomenclatura Tradicional</a></h4>
+              <p class="box-icon-modern-text">Consiste en añadir un prefijo y sufijo al nombre del elemento, teniendo en
+                cuenta el número de oxidación con el que actúe</p>
+            </article>
+          </div>
+          <div class="col-sm-6 col-lg-3 wow blurIn" data-wow-delay=".3s">
+            <article class="box-icon-modern">
+              <div class="box-icon-modern-icon mdi mdi-cash-usd"></div>
+              <h4 class="box-icon-modern-title"><a href="#">SUSTANCIAS SIMPLES</a></h4>
+              <p class="box-icon-modern-text"> Están constituidas por átomos de un solo elemento. En ellas las moléculas
+                están formadas por átomos idénticos. Su fórmula indica el número de átomos de dicho elemento, tal y como
+                se presenta en estado natural a temperatura ambiente.
+                Por ejemplo, muchos elementos que son gases, suelen encontrarse en forma diatómica
+              </p>
+            </article>
+          </div>
+        </div>
+      </div>
+      <a class="wow fadeInRight button button-default" href="ahorcado/index.html">Ejercicios de practica</a>
+    </section> -->
+   
+    <!-- Page Footer-->
+    <footer
+      class="section footer-classic section-full section-full-1 section-sm section-inset-2 bg-gray-3 context-dark text-md-center"
+      id="contacts">
+      <div class="container">
+        <div class="subtitle-classic wow fadeInUp">Pregunta a el profe</div>
+        <h2><span class="d-inline-block wow fadeInLeft">tienes dudas</span> <span
+            class="d-inline-block wow fadeInRight">pregunta</span>
+        </h2>
+        <!-- RD Mailform-->
+        <form class="rd-form rd-mailform" data-form-output="form-output-global" data-form-type="contact">
+          <div class="form-wrap wow fadeInRight">
+            <label class="form-label" for="contact-name">Nombre</label>
+            <input class="form-input" id="nombre" type="text" name="name" data-constraints="@Required">
+          </div>
+          <div class="form-wrap wow fadeInRight">
+            <label class="form-label" for="contact-email">E-Mail</label>
+            <input class="form-input" id="correo" type="email" name="email" data-constraints="@Required @Email">
+          </div>
+          <div class="form-wrap wow fadeInRight">
+            <label class="form-label" for="contact-message">Preguntas</label>
+            <textarea class="form-input" id="pregunta" name="message" data-constraints="@Required"></textarea>
+          </div>
+          <div class="form-button text-center">
+            <button class="button button-default wow fadeInUp"  id="enviar">Enviar Preguntas</button>
+          </div>
+        </form>
+      </div>
+      <div class="container">
+        <div class="footer-classic-list-social wow fadeInUp">
+          <ul class="list-inline list-social list-inline-sm">
+            <li><a class="icon fa fa-linkedin" href="#"></a></li>
+            <li><a class="icon fa fa-twitter" href="#"></a></li>
+            <li><a class="icon fa fa-facebook" href="#"></a></li>
+            <li><a class="icon fa fa-instagram" href="#"></a></li>
+          </ul>
+        </div>
+        <p class="rights wow fadeInUp"><span>&copy;&nbsp; </span><span
+            class="copyright-year"></span><span>&nbsp;</span><span>Fisica</span><span>.&nbsp;</span><span>All rights
+            reserved.</span><br />Design&nbsp;by&nbsp;Usta tunja semestre 2 ingeneria de sistemas</p>
+      </div>
+    </footer>
+  </div>
+  <script src="contacto.js"></script>
+  <div class="snackbars" id="form-output-global"></div>
+  <script src="js/core.min.js"></script>
+  <script src="js/script.js"></script>
+  <script src="js/drag.js"></script>
+</body>
+
+</html>
