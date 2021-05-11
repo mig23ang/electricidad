@@ -1,0 +1,95 @@
+#p1,
+#p2,
+#p3,
+#p4,
+#p5,
+#p6,
+#p7,
+#p8,
+#p9,
+#p10,
+#p11,
+#p12,
+#p13,
+#p14,
+#p15,
+#p16,
+#p17,
+#p18,
+#p19,
+#p20,
+#p21 {
+  display: block;
+  max-width: 60%;
+  min-width: 20%;
+  padding: 10px;
+  margin: 1px auto;
+  border: 1px solid rgba(75, 75, 75, 0.5);
+  border-radius: 10px;
+}
+#dz1,
+#dz2,
+#dz3 {
+  display: block;
+  max-width: 60%;
+  min-width: 20%;
+  padding: 10px;
+  margin: 1px auto;
+  border: 1px solid rgba(75, 75, 75, 0.5);
+}
+#dd1,
+#dd2,
+#dd3 {
+  display: flex;
+  max-width: 60%;
+  min-width: 20%;
+  padding: 10px;
+  margin: 1px auto;
+  border: 1px solid rgba(75, 75, 75, 0.5);
+  border-radius: 10px;
+}
+#dz1 {
+  background-color: rgba(100, 100, 100, 0.5);
+}
+#dz2 {
+  background-color: rgba(125, 125, 125, 0.5);
+}
+#dz3 {
+  background-color: rgba(150, 150, 150, 0.5);
+}
+#dd1 {
+  background-color: rgba(100, 100, 100, 0.5);
+}
+#dd2 {
+  background-color: rgba(125, 125, 125, 0.5);
+}
+#dd3 {
+  background-color: rgba(150, 150, 150, 0.5);
+}
+#p1,
+#p4,
+#p7,
+#p10,
+#p19,
+#p21 {
+  background-color: rgba(75, 175, 175, 0.5);
+}
+#p2,
+#p5,
+#p8,
+#p11,
+#p13,
+#p15,
+#p17 {
+  background-color: rgba(175, 175, 75, 0.5);
+}
+#p3,
+#p6,
+#p9,
+#p12,
+#p14,
+#p16,
+#p18,
+#p20 {
+  background-color: rgba(175, 75, 175, 0.5);
+}
